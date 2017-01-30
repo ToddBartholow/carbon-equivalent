@@ -1,0 +1,36 @@
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ table.wikitable {
+     margin: 1em 0;
+     background-color: #f9f9f9;
+     border: 1px #aaa solid;
+     border-collapse: collapse;
+     color: black;
+ }
+ table.wikitable > * > tr > td {
+     border: 1px #aaa solid;
+     padding: 0.2em;
+ }
+
+ .element-item {
+     position: relative;
+     float: left;
+     width: 130px;
+     height: 150px;
+     margin: 5px;
+     padding: 10px;
+     background: #888;
+     color: #262524;
+ }
+
+.text {
+    size: 4px;
+}
