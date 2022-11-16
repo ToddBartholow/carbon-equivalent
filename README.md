@@ -1,3 +1,3 @@
 A carbon equivalent calculator. 
 
-demo here: http://tools.tradeschool.io/CE/
+demo here: http://tradeschool.io/tools/CE/
