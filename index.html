@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>Carbon Equivalent</title>
+    <meta charset="UTF-8">
+    <title>Carbon Equivalent</title>
 
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
 </head>
 <body>
@@ -12,71 +12,64 @@
 
 
 <div class="formula">
-    <h2>Carbon Equivalent: <span size=5  data-bind="text: carbonEquivalent">CE= </span></h2><br>
-    <table border="0">
-    <tr>
-        <td rowspan="2"><div> %C <span><input size=5 maxlength="3" data-bind='value: percentC, valueUpdate: "afterkeydown"'  /></span> + </div></td>
-        <td><div>(%Mn <span><input size=5 maxlength="3" data-bind='value: percentMn, valueUpdate: "afterkeydown"'/></span> +</td>
-        <td>%Si <span><input size=5 maxlength="3" data-bind='value: percentSi, valueUpdate: "afterkeydown"'/></span>) </div></td>
-        <td rowspan="2">+</td>
-        <td><div>(%Cr <span><input size=5 maxlength="3" data-bind='value: percentCr, valueUpdate: "afterkeydown"'/></span> + </td>
-        <td>%Mo <span><input size=5 maxlength="3" data-bind='value: percentMo, valueUpdate: "afterkeydown"'/></span> + </td>
-        <td>%V <span><input size=5 maxlength="3" data-bind='value: percentV, valueUpdate: "afterkeydown"'/></span>) </div></td>
-        <td rowspan="2">+</td>
-        <td><div>(%Cu <span><input size=5 maxlength="3" data-bind='value: percentCu, valueUpdate: "afterkeydown"'/></span> +</td>
-        <td>%Ni <span><input size=5 maxlength="3" data-bind='value: percentNi, valueUpdate: "afterkeydown"'/></span>) </div></td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center" style="border-top: 1px solid #000000">6</td>
-        <td colspan="3" align="center" style="border-top: 1px solid #000000">5</td>
-        <td colspan="2" align="center" style="border-top: 1px solid #000000">15</td>
-    </tr>
-    </table>
+    <h2>Carbon Equivalent: <span size=5  data-bind="text: carbonEquivalent">CE= </span></h2><br>
+    <table border="0">
+    <tr>
+        <td rowspan="2"><div> %C <span><input size=5 maxlength="3" data-bind='value: percentC, valueUpdate: "afterkeydown"'  /></span> + </div></td>
+        <td><div>(%Mn <span><input size=5 maxlength="3" data-bind='value: percentMn, valueUpdate: "afterkeydown"'/></span> +</td>
+        <td>%Si <span><input size=5 maxlength="3" data-bind='value: percentSi, valueUpdate: "afterkeydown"'/></span>) </div></td>
+        <td rowspan="2">+</td>
+        <td><div>(%Cr <span><input size=5 maxlength="3" data-bind='value: percentCr, valueUpdate: "afterkeydown"'/></span> + </td>
+        <td>%Mo <span><input size=5 maxlength="3" data-bind='value: percentMo, valueUpdate: "afterkeydown"'/></span> + </td>
+        <td>%V <span><input size=5 maxlength="3" data-bind='value: percentV, valueUpdate: "afterkeydown"'/></span>) </div></td>
+        <td rowspan="2">+</td>
+        <td><div>(%Cu <span><input size=5 maxlength="3" data-bind='value: percentCu, valueUpdate: "afterkeydown"'/></span> +</td>
+        <td>%Ni <span><input size=5 maxlength="3" data-bind='value: percentNi, valueUpdate: "afterkeydown"'/></span>) </div></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center" style="border-top: 1px solid #000000">6</td>
+        <td colspan="3" align="center" style="border-top: 1px solid #000000">5</td>
+        <td colspan="2" align="center" style="border-top: 1px solid #000000">15</td>
+    </tr>
+    </table>
 
 </div>
 <p></p>
 <table class="wikitable">
-    <tr>
-        <th>Carbon equivalent (CE)</th>
-        <th>Weldability</th>
-    </tr>
-    <tr>
-        <td>Up to 0.35</td>
-        <td>Excellent</td>
-    </tr>
-    <tr>
-        <td>0.36–0.40</td>
-        <td>Very good</td>
-    </tr>
-    <tr>
-        <td>0.41–0.45</td>
-        <td>Good</td>
-    </tr>
-    <tr>
-        <td>0.46–0.50</td>
-        <td>Fair</td>
-    </tr>
-    <tr>
-        <td>Over 0.50</td>
-        <td>Poor</td>
-    </tr>
+    <tr>
+        <td><strong>Carbon<br> 
+          Equivalent </strong></td>
+        <td><strong>Weldability</strong></td>
+    </tr>
+    <tr>
+        <td>Up to 0.35</td>
+        <td>Excellent</td>
+    </tr>
+    <tr>
+        <td>0.36–0.40</td>
+        <td>Very good</td>
+    </tr>
+    <tr>
+        <td>0.41–0.45</td>
+        <td>Good</td>
+    </tr>
+    <tr>
+        <td>0.46–0.50</td>
+        <td>Fair</td>
+    </tr>
+    <tr>
+        <td>Over 0.50</td>
+        <td>Poor</td>
+    </tr>
 </table>
 
 
 
-    <script src="knockout.js.samples-master/libs/knockout-1.2.1.min.js"></script>
-    <script src="knockout.js.samples-master/libs/jquery-1.6.3.min.js"></script>
-    <script src="knockout.js.samples-master/libs/jquery.tmpl.min.js"></script>
-    <script src="js/CE.js"></script>
-   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-24602933-2', 'sbvctech.org');
-        ga('send', 'pageview');
-
-     </script>
+    <script src="knockout.js.samples-master/libs/knockout-1.2.1.min.js"></script>
+    <script src="knockout.js.samples-master/libs/jquery-1.6.3.min.js"></script>
+    <script src="knockout.js.samples-master/libs/jquery.tmpl.min.js"></script>
+    <script src="js/CE.js"></script>
+   
 </body>
 </html>
+
